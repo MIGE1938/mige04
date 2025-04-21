@@ -30,7 +30,7 @@ jobs:
 
       - name: 下载 BPB worker.js
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/cmliu/edgetunnel/refs/heads/main/_worker.js
+          wget -O origin.js https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/refs/heads/main/Vless_workers_pages/_worker.js
 
       - name: 混淆 BPB worker.js
         run: |
